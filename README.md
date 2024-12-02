@@ -17,7 +17,10 @@ data: This folder should contain the dataset(s) used in the project. Include bot
 models: This folder should contain the trained machine learning models or statistical models used in the project. Include model serialization files (e.g., Pickle files) and any model artifacts.
 visuals: This folder should contain data visualizations and plots generated during exploratory data analysis or model evaluation. Visualizations should be saved as image files (e.g., PNG or JPEG).
 README.md: This Markdown file should include a detailed description of your project, problem statement, data sources, and explanations of your code and models. Also, provide instructions on how to run your code and reproduce the results.
+
+
 Data Exploration
+
 To protect the user's identity and the security of their confidential information, the dataset provider has applied Principal Component Analysis transformation on the original numerical features and compressed it into 28 principal’s components.
 
 Only two features have not been transformed i.e. 1) Time and 2) Amount
