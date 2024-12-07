@@ -17,3 +17,16 @@ During Development: In this phase, organize your project files in the following 
 3. models: This folder should contain the trained machine learning models or statistical models used in the project. Include model serialization files (e.g., Pickle files) and any model artifacts.
 4. visuals: This folder should contain data visualizations and plots generated during exploratory data analysis or model evaluation. Visualizations should be saved as image files (e.g., PNG or JPEG).
 5. README.md: This Markdown file should include a detailed description of your project, problem statement, data sources, and explanations of your code and models. Also, provide instructions on how to run your code and reproduce the results.
+
+
+**Data Exploration**
+
+1. To protect the user's identity and the security of their confidential information, the dataset provider has applied Principal Component Analysis transformation on the original numerical features and compressed it into 28 principal’s components.
+
+2. Only two features have not been transformed i.e. 1) Time and 2) Amount
+
+3. The feature class will be targeting column with user labels as: 0: non-fraudulent 1: fraudulent
+
+4. The dataset exclusively comprises numerical features, and notably, there are no instances of missing values.
+
+
