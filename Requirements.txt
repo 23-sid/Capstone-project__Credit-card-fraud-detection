@@ -1,0 +1,12 @@
+requirements.txt
+
+pandas
+numpy
+seaborn
+matplotlib
+StandardScaler
+RandomForestClassifier
+DecisionTreeClassifier
+SMOTE
+Counter
+pickle
